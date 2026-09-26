@@ -16,3 +16,6 @@ jobs:
 
       - name: 运行脚本
         run: python XMAPort.py
+
+      - name: 输入1
+        run: 1

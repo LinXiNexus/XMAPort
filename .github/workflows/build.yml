@@ -2,9 +2,9 @@ name: Build XMAPort
 
 on:
   push:
-    branches: [main]
+    branches: [LinXiNexus-patch-3]
   pull_request:
-    branches: [main]
+    branches: [LinXiNexus-patch-3]
   workflow_dispatch:
     inputs:
       device:

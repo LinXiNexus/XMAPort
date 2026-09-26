@@ -108,3 +108,4 @@ jobs:
           $tag = "XMAPort-${date}-Beta-$n"
           while (gh release view $tag 2>$null) { $n++; $tag = "XMAPort-${date}-Beta-$n" }
           gh release create $tag XMAPort-win64.zip --title "XMAPort ${date} Beta" --notes "自动构建的 Windows 版本（Python 源码包，需安装 Python 3）。`n`n用法：解压后运行 python XMAPort.py（或使用命令行参数 --auto/--device/--source/--target）。" --latest
+#LinXiNexus
